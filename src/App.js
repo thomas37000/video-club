@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import getAllMovies from "./components/getAllMovies";
+import GetAllMovies from "./components/getAllMovies";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <h1>Video Club</h1>
-      <getAllMovies />
+      <GetAllMovies />
     </div>
   );
 }
